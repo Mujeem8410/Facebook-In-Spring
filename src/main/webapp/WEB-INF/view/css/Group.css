@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.mg-btn {
+	color: blue !important;
+	font-weight: 400 !important;
+	background-color: aliceblue !important;
+	width: 95%;
+}
+
+.tag {
+	margin-left: 1vw;
+	display: inline-block;
+}
+
+.gname {
+	margin-right: 40px !important;
+}
+
+.lp1:hover {
+	scrollbar-width: thin !important;
+}
+
+.likediv {
+	padding: 10px;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+}
+
+.likediv i {
+	color: black !important;
+	margin: 3px 3px !important;
+	font-size: 30px !important;
+}
+
+.likediv a {
+	text-decoration: none !important;
+	color: black !important;
+	font-weight: 600 !important;
+}

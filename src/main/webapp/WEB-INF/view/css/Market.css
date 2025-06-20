@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+html, body {
+	background-color: rgb(235, 235, 235);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	background-color: rgb(235, 235, 235) !important;
+}
+
+.container-fluid {
+	height: 100vh;
+}
+
+.row {
+	display: flex;
+	height: 100%;
+}
+
+.lp {
+	background-color: white;
+	overflow-y: auto;
+	position: relative;
+	height: 100vh;
+	scrollbar-width: none;
+}
+
+.lp:hover {
+	scrollbar-width: thin;
+}
+
+.lp:nth-child(3) {
+	
+}
+
+.rp {
+	background-color: rgb(235, 235, 235);
+	margin: auto;
+	overflow-y: auto;
+	height: 100vh;
+	scrollbar-width: none !important;
+}
+
+.rp:hover {
+	
+}
+
+.card {
+	border: none !important;
+}
+
+.sp-top i {
+	color: black;
+}
+
+.gear-btn {
+	border: none;
+	border-radius: 50% !important;
+	height: 39px !important;
+	float: right !important;
+}
+
+.src1 {
+	border-radius: 50px !important;
+	height: 40px !important;
+}
+
+.lp1 a {
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+	margin-top: 5px;
+}
+
+.lp1 i {
+	color: black;
+	margin-right: 20px;
+	margin-left: 14px;
+	margin-top: 8px;
+	font-size: 19px;
+}
+.lp1 a:active {
+	color:blue;
+	
+}
+
+
+/*   Group page css*/
+
+
+
+
+  

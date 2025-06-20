@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden !important;
+}
+
+.container-fluid {
+	height: 100vh;
+	overflow: hidden !important;
+}
+
+.row {
+	display: flex;
+	height: 100%;
+	    overflow: scroll;
+}
+
+ .super{
+	overflow-y: auto;
+	position: relative;
+	height: 100vh;
+}
+.scrollable-row {
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;              
+    padding-top: 10px;              
+}

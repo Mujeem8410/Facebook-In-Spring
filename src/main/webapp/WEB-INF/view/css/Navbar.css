@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+.proimg {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: none;
+	margin-right: 1vw;
+	margin-bottom: 17px;
+}
+
+.modalbtn {
+	margin-bottom: 0px;
+}
+
+.proimg1 {
+	margin-top: 5px;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+
+.fc-i {
+	color: blue;
+	font-size: 50px;
+}
+
+.srch {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	border: none;
+}
+
+ul {
+	margin-left: 12rem;
+}
+
+ul li {
+	text-align: center;
+	margin-left: 6vw;
+}
+
+.srch-r {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	border: none;
+	margin-left: 10px;
+}
+
+@media ( max-width : 500px) {
+	.cust {
+		display: none !important;
+	}
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.srch, .srch-r {
+	display: inline-block;
+}
+
+.srchform {
+	display: inline-block !important;
+}
+
+.srchbody {
+	height: 80vh;
+	overflow: hidden !important;
+}
+
+.smbody {
+	overflow: hidden !important;
+	padding: unset !important;
+}
+
+.sinput {
+	border-radius: 50px !important;
+}
+
+.sbtn {
+	border-radius: 50px !important;
+}
+
+.offcanvas {
+	max-width: 330px !important;
+	max-height: 90vh !important;
+	border: none !important;
+}
+
+.proname {
+	display: flex;
+	margin-left: auto;
+	color: red;
+	align-items: center;
+	margin-bottom: 15px;
+	justify-content: center;
+}

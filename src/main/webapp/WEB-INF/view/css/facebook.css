@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.contain {
+	margin-top: 6vw;
+}
+
+.brand-name {
+	margin: 10px auto;
+	text-align: justify;
+	color: #4267B2;
+	margin-top: 9vw;
+	margin-left: 9vw;
+	font-size: -webkit-xxx-large;
+}
+.errors{
+	color:red;
+	margin-left:5px;
+}
+
+.description {
+	font-size: x-large;
+	margin: 10px;
+	text-align: justify;
+	margin-left: 9vw;
+}
+
+
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login {
+	width: 25rem;
+	height: 24rem;
+	border: 2px solid white;
+	border-radius: 10px;
+	position: relative;
+	background-color: whitesmoke;
+}
+
+
+
+
+.link a {
+	text-decoration: none;
+}
+
+.button-ac {
+	background-color: #42b72a !important;
+	margin-left: 110px;
+	margin-top: 30px;
+	height: 50px;
+	color:white !important;
+}
+
+
+#sign {
+	margin-top: 30px;
+	margin-left: 120px;
+	margin-bottom:20px;
+}
+
+.paragra {
+	margin-left: -310px;
+}

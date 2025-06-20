@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.container-fluid {
+	height: 100vh;
+	overflow-y: hidden;
+}
+
+.row {
+	display: flex;
+	height: 100%;
+	overflow-y: hidden;
+}
+
+.col-md-3, .col-7.input {
+	overflow-y: auto;
+	position: relative;
+	height: 100vh;
+}
+
+.input {
+	scrollbar-width: none;
+}
+
+.name {
+	font-size: 20px;
+	color: red;
+}
+
+proimg1 {
+	height: 20px !important;
+	margin-left: 40px !important;
+}
+
+.vsidep a {
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.vsidep i {
+	color: rgb(24, 119, 242);
+	margin-right: 20px;
+	margin-left: 14px;
+	font-size: 18px;
+}
+
+.likediv {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+.likediv i {
+	color: black;
+	margin-top: 3px;
+	margin-right: 8px;
+	font-size: 30px;
+}
+
+.likediv a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
